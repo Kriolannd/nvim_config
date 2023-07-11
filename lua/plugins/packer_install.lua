@@ -18,6 +18,8 @@ return require('packer').startup(function()
 
 	use 'nvim-lua/plenary.nvim'
 
+	use 'mfussenegger/nvim-jdtls'
+
 	use {
 		'nvim-tree/nvim-tree.lua',
 		config = function()
@@ -46,7 +48,7 @@ return require('packer').startup(function()
 		tag = "0.1.1",
 		requires = { { "nvim-lua/plenary.nvim" } },
 	})
-
+	
 	-- Удобное меню для обозрения проблем LSP
 	use {
 		"folke/trouble.nvim",
@@ -116,5 +118,11 @@ return require('packer').startup(function()
 		config = function()
 			require("plugins/autopairs")
 		end,
+	}
+
+	use {
+    	"williamboman/mason.nvim",
+    	"williamboman/mason-lspconfig.nvim",
+    	"neovim/nvim-lspconfig",
 	}
 end)
