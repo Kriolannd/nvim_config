@@ -1,6 +1,6 @@
+require('plugins/packer_install')
 require('base/search')
 require('base/tabs')
 require('base/other')
 require('keys/alias')
 require('keys/main')
-require('plugins/packer_install')
