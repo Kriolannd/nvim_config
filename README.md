@@ -1,4 +1,4 @@
-# NeoVim configuration
+# 1. NeoVim configuration
 #### 1. Для безошибочного запуска конфигурации нужен NeoVim-0.9.0 и выше. Можно скачать по ссылке [NeoVim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 #### 2. Сначала требуется создать директорию nvim в ~/.config/, если таковой еще нет, далее склонировать туда код репозитория.
 #### 3. Для загрузки всех плагинов потребуется [packer.nvim](https://github.com/wbthomason/packer.nvim). Его можно установить с помощью следующей команды:
